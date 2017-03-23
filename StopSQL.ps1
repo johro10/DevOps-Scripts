@@ -1,0 +1,1 @@
+Get-Service | Where-Object {($_.name -Like "SQL*") -or ($_.Name -like "MSSQL*")} | Stop-Service -Force
