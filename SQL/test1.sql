@@ -1,1 +1,2 @@
-SELECT * FROM Application.Cities
+SELECT *
+FROM Application.Cities
