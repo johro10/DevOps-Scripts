@@ -1,1 +1,1 @@
-Invoke-WebRequest -Uri https://2.na.dl.wireshark.org/win64/Wireshark-Win64-2.2.5.exe -OutFile C:\Users\Rob\Documents\Scripts
+Invoke-WebRequest -Uri https://2.na.dl.wireshark.org/win64/ -OutFile C:\Users\Rob\Documents\Scripts
