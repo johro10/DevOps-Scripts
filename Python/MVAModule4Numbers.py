@@ -2,6 +2,6 @@
 width = 20
 height = 5
 area = (width * height)
-msg = ("Area = %.2f" % area)
+msg = ("Area = {0:.2f}" .format(area))
 
 print(msg)
