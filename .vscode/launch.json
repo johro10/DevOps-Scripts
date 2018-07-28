@@ -1,6 +1,35 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}"
+        },
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "PowerShell Launch ",
+            "script": "${workspaceFolder}/",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach (Remote Debug)",
+            "type": "pythonExperimental",
+            "request": "attach",
+            "port": 5678,
+            "host": "localhost"
+        },
+    {
+        "name": "Python Experimental: Terminal (integrated)",
+        "type": "pythonExperimental",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal"
+    },
         {
             "type": "PowerShell",
             "request": "launch",
